@@ -1,0 +1,19 @@
+.text{
+    position: relative;
+    border: 1px solid gray;
+    height: 200px;
+    overflow: hidden;
+}
+
+.triangle:after{
+    background-color: gray;
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid gray;
+    bottom: -10px;
+    right: -10px;
+    rotate: 45deg;
+
+}

@@ -1,0 +1,43 @@
+.buttons{
+    width: 400px;
+    height: 140px;
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.tooltip {
+    position: fixed;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-align: center;
+    font: italic 14px sans-serif;
+    color: #fff;
+    background: rgb(136, 2, 157);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.btn2{
+    height: 80px;
+}
+
+ul>li{
+    cursor: pointer;
+}
+
+.hidden>ul{
+    display: none;
+}
+
+.bold{
+    font-weight: 600;
+}
+

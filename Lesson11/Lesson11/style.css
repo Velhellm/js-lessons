@@ -1,0 +1,114 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+} 
+.main{ 
+    display: flex;
+    flex-direction: column; 
+
+} 
+
+.modal{ 
+    width: 300px; 
+    height: 300px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-around; 
+    background-color:  rgb(129, 124, 119); 
+    border: 1px solid gray; 
+} 
+
+button{ 
+    width: 80px; 
+    height: 40px; 
+} 
+
+.modal_inv{ 
+    width: 250px; 
+    height: 250px; 
+    background-color: rgb(158, 182, 174); 
+    display: none; 
+    flex-direction: column; 
+    position: absolute; 
+    align-items: center; 
+    justify-content: space-around; 
+} 
+
+.footballField{ 
+    display: none; 
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+    position: absolute; 
+    background: url(https://zakagioboi.ru/assets/images/products/sport/SPORT-55770769.jpg)  0 0 / 100% 100% no-repeat ; 
+} 
+
+.ball{ 
+    width: 100px; 
+    height: 100px; 
+    display: flex; 
+    position: absolute; 
+    background: url(https://www.pngplay.com/wp-content/uploads/12/Soccer-Ball-PNG-Photo-Image.png) 0 0 / 100% 100% no-repeat; 
+    border-radius: 50px; 
+    left: 0; 
+    top: 0; 
+}
+
+.closeField{ 
+    width: 30px; 
+    height: 30px; 
+    position: fixed; 
+    right: 0%; 
+    background: rgba(255, 0, 0, 0.76); 
+}
+
+.trafficLight{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    margin-top: 10px;
+}
+    
+.lights{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+}
+    
+.light{
+    width: 95px;
+    height: 95px;
+    background-color: gray;
+    border-radius: 50px;
+    }
+    
+    
+.books{
+    width: 600px;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+    
+.booklist{
+    width: 600px;
+    border:  1px solid gray;
+    margin-top: 10px;
+    display: flex;
+}
+    
+.bookList ol {
+    cursor: pointer;
+}
+
+.selected {
+    color: rgb(235, 88, 9);
+}

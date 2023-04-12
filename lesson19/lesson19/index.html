@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lesson19</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="content">
+      <h2>Создайте новый цвет</h2>
+      <form name="form">
+        <div class="message messName"></div>
+        <input class="input" type="text" name="colorName" placeholder="Название цвета">
+        <div class="message messName"></div>
+        <select class="input" name="type">
+          <option value="RGB">RGB</option>
+          <option value="RGBA">RGBA</option>
+          <option value="HEX">HEX</option>
+        </select>
+        <div class="message messCode"></div>
+        <input class="input" type="text" name="colorCode" placeholder="Код цвета">
+        <button class="button" name="button">Сохранить</button>
+      </form>
+      <h2 class="pall">Палитра</h2>
+      <div class="palette"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
